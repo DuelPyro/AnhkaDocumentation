@@ -23,7 +23,7 @@ parser.add_argument("-p", "--path", help="use the path given as the root directo
 parser.add_argument("-d", "--debug", help="use the notpatatsu bot and d+ prefix for debugging purposes", action="store_true")
 parser.add_argument("-P", "--prefix", help=f"change the bot's prefix (defaults to '{prefix}')")
 parser.add_argument("-s", "--status", help="change the bot's status at bootup (defaults to 'online')")
-parser.add_argument("-a", "--activity", help="change the bot's activity status (defaults to 'with fire')")
+parser.add_argument("-a", "--activity", help="change the bot's activity status (defaults to 'with your mom')")
 parser.add_argument("-A", "--activity-type", help="change the bot's activity status type (Playing, Streaming, etc.) (defaults to 'playing')")
 args = parser.parse_args()
 
