@@ -18,7 +18,7 @@ def setup(bot):
              name="slice",
              usage="", 
              description="Anhka gives you cake", 
-             help="", #ignore this for now
+             help="", 
              hidden=True)
 async def cake(ctx):
     await ctx.send(":cake:")
@@ -28,7 +28,7 @@ async def cake(ctx):
              name="loveyouanhka",
              usage="", 
              description="Show Anhka your love and appreciation!", 
-             help="", #ignore this for now
+             help="", 
              hidden=True,
              aliases=["love"])
 async def love(ctx):
@@ -41,7 +41,7 @@ async def love(ctx):
              usage="<number> <other number>",
              description="Adds two numbers",
              help="",
-             hidden=False) #change to True if you want the command to not show up in +help!
+             hidden=False)
 async def addition(ctx, arg1, arg2):
     arg1 = int(arg1)
     arg2 = int(arg2)
@@ -55,7 +55,7 @@ async def addition(ctx, arg1, arg2):
              usage="",
              description="Grabs your IP Address (Totally!)",
              help="",
-             hidden=False) #change to True if you want the command to not show up in +help!
+             hidden=False)
 async def selfdoxx(ctx):
     await ctx.send(":man_dancing:")
     await asyncio.sleep(1)
@@ -70,7 +70,7 @@ async def selfdoxx(ctx):
              name="nuke",
              usage="", 
              description="BOOM! BOOM! BOOM!", 
-             help="", #ignore this for now
+             help="", 
              hidden=True)
 async def cake(ctx):
     await ctx.send("TACTICAL NYA-KE INCOMING!")
@@ -88,7 +88,7 @@ async def cake(ctx):
              name="wait",
              usage="[amount of seconds]", 
              description="It's like a timer!", 
-             help="", #ignore this for now
+             help="", 
              hidden=False)
 async def wait(ctx, arg1):
      try:
@@ -104,7 +104,7 @@ async def wait(ctx, arg1):
              name="coinflip",
              usage="", 
              description="Original command do not steal", 
-             help="", #ignore this for now
+             help="", 
              hidden=False)
 async def coinflip(ctx):
     flip = random.randint(0, 1)
