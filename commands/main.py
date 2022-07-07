@@ -8,7 +8,7 @@ import argparse
 import discord
 from discord.ext import commands
 import os
-import tokens
+
 
 print("Anhka, beta")
 
